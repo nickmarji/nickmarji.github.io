@@ -3,13 +3,29 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    company: "PharmatrophiX",
+    location: "Remote",
+    roles: [
+      {
+        title: "Identity and Access Management Consultant",
+        type: "Part-Time",
+        dates: "Feb 2026 – Present",
+        responsibilities: [
+          "Built Microsoft 365 identity and access security from the ground up for a 15-person biopharma startup, implementing Entra ID SSO, MFA, Conditional Access, and RBAC to protect sensitive company data",
+          "Partnered with business stakeholders to assess collaboration and access needs, then configured SharePoint site structure, guest access controls, and permission scopes aligned to business requirements while enforcing least-privilege principles",
+          "Responded to a compromised co-founder account, tracing the incident to a legacy Azure CLI authentication path that bypassed Conditional Access policies; contained the account, verified no data had leaked, and closed the gap by updating Conditional Access to cover legacy authentication methods",
+        ],
+      },
+    ],
+  },
+  {
     company: "Alkeus Pharmaceuticals, Inc.",
     location: "Cambridge, MA",
     roles: [
       {
         title: "IT Security Associate",
         type: "Part-Time",
-        dates: "Jan 2025 – Present",
+        dates: "Jan 2025 – May 2026",
         responsibilities: [
           "Conducted end-to-end Microsoft 365 security posture assessment, identifying and remediating 25+ tenant misconfigurations to align environment with CIS Controls and NIST CSF standards",
           "Performed continuous log analysis and alert triage across cloud identity and endpoint telemetry to identify anomalous behavior patterns and potential security incidents",
@@ -17,12 +33,12 @@ const experiences = [
         ],
       },
       {
-        title: "IT Operations Intern",
+        title: "IT Operations Co-op",
         type: "Full-Time Co-op",
         dates: "May 2024 – Jan 2025",
         responsibilities: [
-          "Enhanced office connectivity and reliability by wiring network infrastructure and configuring access points, driving a 70%+ boost in Wi-Fi speed and user experience across the organization",
-          "Maintained and documented IT asset inventory, software licenses, and configuration baselines to ensure compliance and improve audit readiness across 100+ devices",
+          "Coordinated with department leads across the business to catalog the software and technology each team relied on, documenting and tracking configurations across 100+ devices while flagging applications that posed a security risk by lacking SSO support",
+          "Identified recurring connectivity gaps affecting daily operations and led an office-wide network infrastructure upgrade, coordinating structured wiring and access point reconfiguration to achieve a 70%+ improvement in Wi-Fi throughput",
         ],
       },
     ],
@@ -101,7 +117,7 @@ const experiences = [
       {
         title: "Senior Resident Assistant",
         type: "Part-Time",
-        dates: "Aug 2023 – Present",
+        dates: "Aug 2023 – April 2026",
         responsibilities: [
           "Managed a residential community of 50+ students (250+ over tenure) by conducting weekly one-on-one meetings, facilitating conflict resolution, ensuring policy compliance, and responding to emergencies while maintaining student confidentiality",
         ],

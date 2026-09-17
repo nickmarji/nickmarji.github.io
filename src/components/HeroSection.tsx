@@ -28,9 +28,10 @@ const HeroSection = () => {
           </p>
 
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Security-focused professional with hands-on experience in enterprise identity management, 
-            SIEM operations, and cloud compliance. Currently pursuing a B.S. in Cybersecurity &amp; Business 
-            Administration at Northeastern University, with real-world impact at Alkeus Pharmaceuticals.
+            Early cybersecurity professional with hands-on experience in enterprise identity management
+            (Entra ID, Conditional Access, RBAC), security automation, and cloud compliance. B.S. in
+            Cybersecurity &amp; Business Administration from Northeastern University, currently working as
+            an Identity and Access Management Consultant.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">

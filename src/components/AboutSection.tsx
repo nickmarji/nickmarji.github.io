@@ -27,22 +27,31 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-5 gap-12">
             <div className="md:col-span-3 space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                I'm a cybersecurity and business administration student at Northeastern University with 
-                nearly two years of hands-on IT security experience at Alkeus Pharmaceuticals. My work 
-                spans enterprise identity management, cloud compliance automation, and security operations 
-                all while balancing a full-time course load.
+                I'm an early cybersecurity professional with a B.S. in Cybersecurity &amp; Business
+                Administration from Northeastern University and over two years of hands-on IT security
+                experience. Most of my work lives inside Microsoft Entra ID: locking down and protecting
+                the tenant, building out Conditional Access policies, managing RBAC, and handling identity
+                end to end, onboarding, offboarding, access reviews, all of it. I've built automation and
+                scripts to streamline a lot of that so it doesn't depend on someone remembering to do it
+                manually, and I've done real threat hunting and incident response when something actually
+                goes wrong. I've also run social engineering training for end users, live phishing
+                simulations, not a slide deck, to see how people actually respond under real conditions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                My journey into tech started early with building websites at All Star Code, bridging 
-                the digital divide at STEM Alliance, and learning from Google engineers during their CSSI 
-                program. These experiences shaped my passion for using technology to solve real problems 
-                and protect people.
+                That hands-on admin experience runs through everything I've built, at Alkeus Pharmaceuticals
+                and now as an IAM consultant at PharmatrophiX, where I built a growing biopharma startup's
+                security from the ground up.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I thrive at the intersection of security and business, understanding that effective 
-                cybersecurity isn't just technical, it's about enabling organizations to operate safely 
-                and confidently. I'm seeking opportunities where I can continue making measurable security 
-                impact.
+                My journey into tech started early: building websites at All Star Code, bridging the digital
+                divide at STEM Alliance, and learning from Google engineers during their CSSI program. Those
+                experiences shaped my interest in using technology to solve real problems and protect people.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Lately I've also been building hands-on AWS experience independently, including designing
+                and deploying an SSH honeypot to study real attacker behavior, and I'm increasingly
+                interested in how AI agents can be applied to solve real business problems, not just
+                security ones.
               </p>
             </div>
 

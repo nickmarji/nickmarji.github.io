@@ -2,16 +2,11 @@ import { useState, useEffect } from "react";
 import { Moon, Sun } from "lucide-react";
 
 const ThemeToggle = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", isDark);
   }, [isDark]);
-
-  // Set dark mode on mount
-  useEffect(() => {
-    document.documentElement.classList.add("dark");
-  }, []);
 
   return (
     <button

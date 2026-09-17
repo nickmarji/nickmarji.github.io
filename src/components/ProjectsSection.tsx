@@ -32,6 +32,12 @@ const projects = [
     tech: ["Nmap", "Snort", "OpenVAS", "Wireshark", "Ettercap", "AIDE", "Fail2Ban"],
     type: "School Project",
   },
+  {
+    title: "AWS SSH Honeypot with Infrastructure as Code",
+    description: "Designed and deployed an SSH honeypot (Cowrie) on AWS EC2 to capture real-world attacker behavior, starting with no prior AWS experience. Architected an isolated VPC with hardened SSH access, moved administrative access to a non-standard port restricted to a single IP, and retroactively codified the entire environment in Terraform, including a least-privilege, EC2/VPC-scoped IAM policy in place of broad admin access, with verified zero configuration drift. Parameterized and open-sourced the Terraform module on GitHub.",
+    tech: ["AWS (EC2, VPC, IAM)", "Cowrie", "Terraform", "GitHub"],
+    type: "Personal Project",
+  },
 ];
 
 const ProjectsSection = () => {
